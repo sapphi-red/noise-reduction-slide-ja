@@ -1,0 +1,21 @@
+/* 詳細度をあげておく */
+.slidev-layout.slidev-layout.slidev-layout {
+  h1 + p {
+    @apply my-4 opacity-100;
+  }
+}
+
+.slidev-layout.slidev-layout.slidev-layout[layout="two-cols"] {
+  .col-left {
+    @apply mr-2;
+  }
+  .col-right {
+    @apply ml-2;
+  }
+}
+
+[layout="iframe-right"] {
+  #frame {
+    @apply bg-white;
+  }
+}

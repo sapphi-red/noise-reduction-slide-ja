@@ -1,0 +1,22 @@
+@media (prefers-color-scheme: dark) {
+  .mermaid {
+    .marker {
+      fill: #dddddd !important;
+      stroke: #dddddd !important;
+    }
+    .edgePaths > * {
+      stroke: #dddddd !important;
+    }
+    .node rect {
+      fill: #2e2e2e !important;
+      stroke: transparent !important;
+    }
+    .nodeLabel {
+      color: #ddd !important;
+    }
+    .edgeLabel {
+      color: #ddd !important;
+      background-color: #222 !important;
+    }
+  }
+}
